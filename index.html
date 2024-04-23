@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4a2c1d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 18px;
+        }
+        .banner {
+            background-image: url('coffee-banner.jpg');
+            background-size: cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+        .menu {
+            padding: 20px;
+        }
+        .menu-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .footer {
+            background-color: #4a2c1d;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Coffee Shop</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <h2>Enjoy the Best Coffee Experience</h2>
+    </div>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <h3>Espresso</h3>
+            <p>A strong black coffee made by forcing steam through ground coffee beans.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Cappuccino</h3>
+            <p>Espresso mixed with steamed milk foam, often topped with chocolate powder.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Americano</h3>
+            <p>Espresso with hot water, resulting in a coffee with a similar strength to drip coffee but different flavor.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are passionate about providing the finest coffee experience. Our beans are sourced from the best coffee farms around the world, and our baristas are dedicated to crafting each cup with care and precision.</p>
+    </section>
+
+    <footer class="footer">
+        <p>Contact Us: contact@coffeeshop.com</p>
+        <p>&copy; 2024 Coffee Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
